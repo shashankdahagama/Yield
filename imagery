@@ -1,0 +1,5 @@
+import numpy as np
+from scipy.misc import imread, imsave, imresize
+from scipy.spatial.distance import pdist, squareform
+import matplotlib.pyplot as plt
+img1 = imread('CA_eMTH_NDVI.2015.269-278.QKM.VI_ACQI.005.2015283121706.tif')
